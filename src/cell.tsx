@@ -3,7 +3,7 @@ interface CellProps {
   h1: string,
   h2: string | undefined,
   h3: string,
-  link: string,
+  link?: string,
 }
 
 function Cell(props: CellProps) {
