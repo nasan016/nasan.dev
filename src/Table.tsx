@@ -4,7 +4,7 @@ interface Item {
   h1: string,
   h2?: string,
   h3: string,  
-  link: string
+  link?: string
 }
 
 interface TableProps {
