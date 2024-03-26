@@ -9,11 +9,11 @@ interface CellProps {
 function Cell(props: CellProps) {
 
   const openLink = () => {
-    window.open(props.link, "_blank", "noreferrer")    
+    window.open(props.link, "_blank")    
   }
 
   const openEmail = () => {
-    window.open(`mailto:${props.link}`, "_self", "noreferrer")
+    window.open(`mailto:${props.link}`, "_self")
   }
 
   const open = props.title1 === "Email" ? openEmail : openLink
