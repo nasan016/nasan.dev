@@ -25,12 +25,12 @@ function Cell(props: CellProps) {
           { props.title1 }
         </div>
 
-      <div className="language">
-        { props.title2 }
-      </div>
+        <div className="language">
+          { props.title2 }
+        </div>
       </div>
 
-      <div className="desc-link">
+      <div className="desc-link mobile-no-show">
         <div className="description">
           { props.title3 }
         </div>

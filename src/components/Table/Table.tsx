@@ -45,7 +45,7 @@ function Table(props: TableProps) {
               { props.title2 }
           </h2>
         </div>
-        <h2 className="project-description">
+        <h2 className="project-description mobile-no-show">
             { props.title3 }
         </h2>
       </div>
