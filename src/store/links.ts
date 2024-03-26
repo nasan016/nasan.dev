@@ -2,17 +2,17 @@ const links = [
   {
     title1: "Github",
     title3: "github/nasan016",
-    link: ""
+    link: "https://github.com/nasan016"
   },
   {
     title1: "LinkedIn",
     title3: "linkedin/nathanielmacapinlac",
-    link: ""
+    link: "https://www.linkedin.com/in/nathanielmacapinlac/"
   },
   {
     title1: "Email",
     title3: "nlm040603@gmail.com",
-    link: ""
+    link: "nlm040603@gmail.com"
   }
 ]
 

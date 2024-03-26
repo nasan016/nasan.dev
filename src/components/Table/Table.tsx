@@ -4,7 +4,7 @@ interface Item {
   title1: string,
   title2?: string,
   title3?: string,  
-  link?: string
+  link: string
 }
 
 interface TableProps {
@@ -23,6 +23,7 @@ function Table(props: TableProps) {
               title1={ele.title1}
               title2={ele.title2}
               title3={ele.title3}
+              link={ele.link}
             />
           : <div style={{borderBottom: "solid 1px"}}>
               <Cell
@@ -30,6 +31,7 @@ function Table(props: TableProps) {
               title1={ele.title1}
               title2={ele.title2}
               title3={ele.title3}
+              link={ele.link}
             />
           </div>
   })

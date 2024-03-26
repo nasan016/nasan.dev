@@ -3,7 +3,7 @@ interface CellProps {
   title1?: string,
   title2?: string,
   title3?: string,
-  link?: string,
+  link: string,
 }
 
 function Cell(props: CellProps) {
@@ -12,9 +12,15 @@ function Cell(props: CellProps) {
     window.open(props.link, "_blank", "noreferrer")    
   }
 
+  const openEmail = () => {
+    window.open(`mailto:${props.link}`, "_self", "noreferrer")
+  }
+
+  const open = props.title1 === "Email" ? openEmail : openLink
+
   return (
     <button className="projects-container"
-      onClick={() => openLink()}
+      onClick={() => open()}
       >
       <div className="idx-name">
         <div className="idx">
