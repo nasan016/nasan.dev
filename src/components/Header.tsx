@@ -5,7 +5,7 @@ export default function Header() {
         nasan.dev
       </h1>
       <p>
-        I like coding and reading books.
+        Buzzwords: [ TypeScript, Go, Python ]
       </p>
       <p>
         CSE Student.
